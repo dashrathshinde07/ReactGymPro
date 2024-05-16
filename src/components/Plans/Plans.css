@@ -71,17 +71,27 @@
   color: orange;
 }
 
-.plans-blur-1{
+.plans-blur-1 {
   width: 32rem;
   height: 23rem;
   top: 6rem;
   left: 0rem;
 }
 
-.plans-blur-2{
+.plans-blur-2 {
   width: 32rem;
   height: 23rem;
   top: 10rem;
   right: 0rem;
+}
 
+/* ------------- media query ------------ */
+
+@media (max-width: 768px) {
+  .plans {
+    flex-direction: column;
+  }
+  .plans > :nth-child(2) {
+    transform: none;
+  }
 }
