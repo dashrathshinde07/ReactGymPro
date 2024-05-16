@@ -27,7 +27,7 @@ const Reasons = () => {
             <span className="stroke-text">why </span>
             <span>Choose us?</span>
           </div>
-        {/* Reasons details */}
+          {/* Reasons details */}
           <div className="details-r">
             <div>
               <img src={tick} alt="" />
@@ -46,16 +46,20 @@ const Reasons = () => {
               <span>RELIABLE PARTNERS</span>
             </div>
           </div>
-            {/* our partners */}
-            <span style={{
-              color: 'var(--gray)',
-              fontWeight: 'normal',
-            }}>OUR PARTNERS</span>
-            <div className="partners">
-              <img src={nb} alt="" />
-              <img src={adidas} alt="" />
-              <img src={nike} alt="" />
-            </div>
+          {/* our partners */}
+          <span
+            style={{
+              color: "var(--gray)",
+              fontWeight: "normal",
+            }}
+          >
+            OUR PARTNERS
+          </span>
+          <div className="partners">
+            <img src={nb} alt="" />
+            <img src={adidas} alt="" />
+            <img src={nike} alt="" />
+          </div>
         </div>
       </div>
     </>
